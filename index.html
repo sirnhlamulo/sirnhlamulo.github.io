@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+ 
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Sir Nhlamulo Karabo Online Portfolio</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                   Sir Nhlamulo Karabo
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="ri-home-line"></i>
+                                <span>Home</sspan>
+                            </a>
+                        </li>
+    
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">
+                                <i class="ri-price-tag-3-line"></i>
+                                <span>Media</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#collection" class="nav__link">
+                                <i class="ri-compass-3-line"></i>
+                                <span>Systems</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">
+                                <i class="ri-t-shirt-line"></i>
+                                <span>Design</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- theme change burron -->
+                <i class="ri-moon-line change-theme " id="theme-button"></i>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Hi, I'm<br>
+                            Nhlamulo
+                        </h1>
+
+                        <p class="home__description">
+                            IT specialist & creative  portfolio <br/> 
+                            Im inspired by constantly striving <br/> 
+                            for software & practical breakthroughs.
+                        </p>
+
+                        <a href="https:/sirnhlamulo.github.io/resume" class="button__link">
+                            Explore Resume <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__images">
+                        <img src="assets/img/home1.png" alt="home image">
+                        <!-- <img src="assets/img/home2.png" alt="home image"> -->
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NEW ====================-->
+            <section class="new section" id="new">
+                <h2 class="section__title">
+                    Media
+                </h2>
+
+                <div class="new__container container grid">
+                    <article class="new__card">
+                        <img src="assets/img/new1.png" alt="new image" class="new__img">
+                        <a href="#" class="new__link">
+                            <div class="new__data">
+                                <h2 class="new__title">
+                                    Video
+                                </h2>
+                                <span class="new__subtitle">
+                                   collection
+                                </span>
+                            </div>
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="new__card">
+                        <img src="assets/img/new2.png" alt="new image" class="new__img">
+                        <a href="#" class="new__link">
+                            <div class="new__data">
+                                <h2 class="new__title">
+                                    Photography
+                                </h2>
+                                <span class="new__subtitle">
+                                    collection
+                                </span>
+                            </div>
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="new__card">
+                        <img src="assets/img/new3.png" alt="new image" class="new__img">
+                        <a href="#" class="new__link">
+                            <div class="new__data">
+                                <h2 class="new__title">
+                                    Art
+                                </h2>
+                                <span class="new__subtitle">
+                                   collection
+                                </span>
+                            </div>
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== COLLECTION ====================-->
+            <section class="collection section" id="collection">
+                <h2 class="section__title">
+                    Systems
+                </h2>
+                <div class="collection__container container ">
+                    
+                    <div class="collection__explore">
+                        <div class="collection__data-men">
+                            <h2 class="collection__title">
+                                Software<br>
+                                Developer
+                            </h2>
+                            <a href="#" class="button__link">
+                                View Portfolio & Resume Download <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <img src="assets/img/collection1.png" alt="collection image">
+                    </div>
+
+                    <div class="collection__explore">
+                        <img src="assets/img/collection2.png" alt="collection image">
+
+                        <div class="collection__data-women">
+                            <h2 class="collection__title">
+                                Cloud <br>
+                                Developer
+                            </h2>
+                            <a href="#" class="button__link">
+                                Explore hosting options<i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section" id="products">
+                <h2 class="section__title">
+                    Design 
+                </h2>
+
+                <div class="products__container container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="products__card swiper-slide ">
+                            <img src="assets/img/product1.png" alt="product image" class="products__img">
+                        
+                        <h2 class="products__title">
+                           Brand Design
+                        </h2>
+                        <span class="products__price">
+                            collection
+                        </span> 
+                        </article>
+
+                        <article class="products__card swiper-slide ">
+                            <img src="assets/img/product2.png" alt="product image" class="products__img">
+                        
+                        <h2 class="products__title">
+                            Graphic Design
+                        </h2>
+                        <span class="products__price">
+                            collection
+                        </span>
+                        </article>
+
+                        <article class="products__card swiper-slide ">
+                            <img src="assets/img/product3.png" alt="product image" class="products__img">
+                        
+                        <h2 class="products__title">
+                            Social  Design
+                        </h2>
+                        <span class="products__price">
+                            collection
+                        </span>
+                        </article>
+
+                        <article class="products__card swiper-slide">
+                            <img src="assets/img/product4.png" alt="product image" class="products__img">
+                        
+                        <h2 class="products__title">
+                            Website Design
+                        </h2>
+                        <span class="products__price">
+                            collection
+                        </span>
+                        </article>
+                        <!-- <article class="products__card swiper-slide">
+                            <img src="assets/img/product4.png" alt="product image" class="products__img">
+                        
+                        <h2 class="products__title">
+                            Video & Editting
+                        </h2>
+                        <span class="products__price">
+                            $69.99
+                        </span>
+                        </article>
+                        <article class="products__card swiper-slide">
+                            <img src="assets/img/product4.png" alt="product image" class="products__img">
+                        
+                        <h2 class="products__title">
+                            Sound & Events
+                        </h2>
+                        <span class="products__price">
+                            $69.99
+                        </span>
+                        </article> -->
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-line"></i>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== BRANDS ====================-->
+            <section class="brand section">
+                <div class="section__title">
+                    Brands 
+                </div>
+
+                <div class="brand__container container grid">
+                    <img src="assets/img/logo1.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/logo2.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/logo3.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/logo4.png" alt="logo image" class="brand__img">
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        Sir Nhlamulo Karabo.
+                    </a>
+                    <p class="footer__description">
+                        Committed to bringing you the <br> 
+                        best services
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            Info.
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Resume</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Portfolio.
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Media.</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Web.</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Design.</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Office.
+                        </h3>
+
+                    <p class="footer__information">
+                        I work by <br>
+                        Appointments Only
+                    </p>
+                    </div>
+                    
+                    <div>
+                        <h3 class="footer__title">
+                            Contact Me
+                        </h3>
+
+                        <ul class="footer__social">
+                            <a href="https://wa.me/27672521424" class="footer__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sir-nhlamulo/" class="footer__social-link">
+                                <i class="ri-linkedin-line"></i>
+                            </a>
+                            <a href="https://github.com/sirnhlamulo" class="footer__social-link">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; @sir-nhlamulo. All rigths reserved
+                </span>
+                
+
+                <a href="#" class="footer__privacy">
+                    Terms & Conditions
+                </a>
+            </div>
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+        <a href="" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-line"></i>
+        </a>
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
