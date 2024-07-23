@@ -1,0 +1,28 @@
+========== NAVIGATION ==========
+.nav__logo
+RaceCar
+
+.nav__link
+Home - About Us - Sponsors - TV channels - Contact Us
+
+========== BODY ==========
+.home__subtitle
+Let’s
+
+.home__title
+CONNECT.
+
+.home__specs span
+Sir
+Nhlamulo
+Karabo
+
+.home__button span
+Explore 
+
+.home__social-link
+https://www.linkedin.com/in/sir-nhlamulo/
+https://www.facebook.com/sir.nhlamulo/
+https://www.instagram.com/sir.nhlamulo/
+
+
