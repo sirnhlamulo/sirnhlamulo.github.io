@@ -1,21 +1,22 @@
 ========== NAVIGATION ==========
 .nav__logo
-RaceCar
+Sir Online
 
-.nav__link
-Home - About Us - Sponsors - TV channels - Contact Us
+av__link
+Home
+.n - Career - Consult - Commerce - Contact
 
 ========== BODY ==========
 .home__subtitle
 Let’s
 
 .home__title
-CONNECT.
+Work.
 
 .home__specs span
 Sir
-Nhlamulo
-Karabo
+Online
+Hub
 
 .home__button span
 Explore 
