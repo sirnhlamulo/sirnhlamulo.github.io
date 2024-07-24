@@ -110,6 +110,14 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+.nav__logo-img{
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  display: inline;
+  align-items: center;
+}
 
 .nav__logo,
 .nav__link {
