@@ -1,12 +1,11 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
   --red-color: hsl(0, 56%, 46%);
   --green-color: hsl(166, 90%, 40%);
   --blue-color: hsl(204, 90%, 50%);
@@ -14,7 +13,6 @@
   --black-color: hsl(210, 8%, 8%);
 
   /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Montserrat", sans-serif;
   --second-font: "Dancing Script", cursive;
   --biggest-font-size: 5rem;
@@ -53,6 +51,9 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--white-color);
+  background-color: var(
+    --black-color
+  ); /* Set a background color for contrast */
 }
 
 ul {
@@ -79,11 +80,11 @@ img {
   overflow: hidden;
 }
 
-/* Car red */
+/* Car color classes */
 .car__orange {
   --color-car: var(--red-color);
 }
-/*  */
+
 .car__green {
   --color-car: var(--green-color);
 }
@@ -93,7 +94,6 @@ img {
 }
 
 /*=============== HEADER & NAV ===============*/
-
 .header {
   position: fixed;
   width: 100%;
@@ -102,6 +102,7 @@ img {
   background-color: var(--red-color);
   z-index: var(--z-fixed);
 }
+
 .nav {
   position: relative;
   height: var(--header-height);
@@ -131,7 +132,7 @@ img {
 .nav__menu {
   position: fixed;
   top: 0;
-  right: 0;
+  right: -100%;
   background-color: hsla(210, 8%, 8%, 0.7);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -147,30 +148,61 @@ img {
   row-gap: 3rem;
 }
 
-/* .nav__close {
+.nav__close {
   position: absolute;
   top: 0.8rem;
   right: 1.5rem;
-} */
+}
 
 /* Show menu */
-/* .show-menu {
+.show-menu {
   right: 0;
-} */
+}
 
-/* Add blur header */
+/*=============== ADD BLUR HEADER ===============*/
+/* Add your blur header styles here */
 
 /*=============== HOME ===============*/
+/* Add your home section styles here */
 
-/* Swiper class */
+/*=============== SWIPER NETWORK ===============*/
+/* Add your Swiper styles here */
 
-/* Swiper animation */
+/*=============== SWIPER ANIMATION ===============*/
+/* Add your Swiper animation styles here */
 
 /*=============== BREAKPOINTS ===============*/
-/* For small devices */
+/* Small devices */
+@media screen and (max-width: 576px) {
+  .nav__menu {
+    width: 100%;
+  }
+}
 
-/* For medium devices */
+/* Medium devices */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .nav__menu {
+    width: 80%;
+  }
+}
 
-/* For large devices */
+/* Large devices */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .nav__menu {
+    width: 60%;
+  }
+}
 
-/* For taller devices */
+/* Extra large devices */
+@media screen and (min-width: 992px) {
+  .nav__menu {
+    width: 40%;
+  }
+}
+
+/* Taller devices */
+@media screen and (min-height: 700px) {
+  .nav__menu {
+    padding: 7rem 3.5rem 3.5rem;
+  }
+}

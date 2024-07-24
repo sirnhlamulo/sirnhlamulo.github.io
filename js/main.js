@@ -16,10 +16,23 @@ if (navClose) {
     navMenu.classList.remove("show-menu");
   });
 }
-/*=============== REMOVE MENU MOBILE ======*/
 
-/*=============== SWIPER CAR ==============*/
+/*=============== REMOVE MENU MOBILE ======*/
+const navLink = document.querySelectorAll(".nav__link");
+
+function linkAction() {
+  const navMenu = document.getElementById("nav-menu");
+  // When we click on each nav__link, we remove the show-menu class
+  navMenu.classList.remove("show-menu");
+}
+
+navLink.forEach((n) => n.addEventListener("click", linkAction));
+
+/*=============== SWIPER NETWORK ==========*/
+// Add your Swiper initialization code here
 
 /*=============== GSAP ANIMATION ==========*/
+// Add your GSAP animation code here
 
 /*=============== ADD BLUR HEADER =========*/
+// Add your code to add blur effect to the header on scroll
