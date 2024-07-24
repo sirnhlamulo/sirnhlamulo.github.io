@@ -3,14 +3,14 @@ const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
   navClose = document.getElementById("nav-close");
 
-/* Menu show */
+/* Show menu on toggle click */
 if (navToggle) {
   navToggle.addEventListener("click", () => {
     navMenu.classList.add("show-menu");
   });
 }
 
-/* Menu hidden */
+/* Hide menu on close button click */
 if (navClose) {
   navClose.addEventListener("click", () => {
     navMenu.classList.remove("show-menu");
@@ -18,21 +18,17 @@ if (navClose) {
 }
 
 /*=============== REMOVE MENU MOBILE ======*/
-const navLink = document.querySelectorAll(".nav__link");
+const navLinks = document.querySelectorAll(".nav__link");
 
+/* Close menu when any nav link is clicked */
 function linkAction() {
-  const navMenu = document.getElementById("nav-menu");
-  // When we click on each nav__link, we remove the show-menu class
   navMenu.classList.remove("show-menu");
 }
 
-navLink.forEach((n) => n.addEventListener("click", linkAction));
+navLinks.forEach((link) => link.addEventListener("click", linkAction));
 
 /*=============== SWIPER NETWORK ==========*/
-// Add your Swiper initialization code here
 
 /*=============== GSAP ANIMATION ==========*/
-// Add your GSAP animation code here
 
 /*=============== ADD BLUR HEADER =========*/
-// Add your code to add blur effect to the header on scroll
