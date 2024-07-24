@@ -19,11 +19,13 @@ Online
 Hub
 
 .home__button span
-Explore 
+Explore
 
 .home__social-link
 https://www.linkedin.com/in/sir-nhlamulo/
 https://www.facebook.com/sir.nhlamulo/
+https://www.instagram.com/sir.nhlamulo/
+https://github.com/sirnhlamulo?tab=repositories
 
 
 

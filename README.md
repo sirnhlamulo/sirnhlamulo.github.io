@@ -1,5 +1,7 @@
 # Responsive Network Website
-## [Github]()
+## [Github Profile](https://github.com/sirnhlamulo?tab=repositories)
+## [Linkedin Profile](https://www.linkedin.com/in/sir-nhlamulo/)
+## [Facebook Porfile](https://www.instagram.com/sir.nhlamulo/)
 
 ### Make your network your networth with this front-end template.
 
@@ -13,9 +15,10 @@
 [@SirNhlamulo](https://www.linkedin.com/in/sir-nhlamulo/)
 
 Tech Stack:
-    - [Html + Css](https://www.w3schools.com/html/)
-    - [CDNJS - 4.2.0](https://cdnjs.com/)
-    - [Remix Icon](https://remixicon.com/)
-    - [Swiperjs](https://swiperjs.com/get-started)
+- [Responsive Html Code](https://www.w3schools.com/html/)
+- [CDNJS - remix 4.2.0](https://cdnjs.com/libraries/remixicon/4.2.0)
+- [Remix Icon Online](https://remixicon.com/)
+- [Swiperjs](https://swiperjs.com/get-started#use-swiper-from-cdn)
+- [GSAP](https://cdnjs.com/libraries/gsap)
 
 ![preview img](/img/resource/preview.png)

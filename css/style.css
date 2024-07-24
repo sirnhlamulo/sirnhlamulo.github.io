@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --red-color: hsl(0, 71%, 42%);
+  --red-color: hsl(0, 56%, 46%);
   --green-color: hsl(166, 90%, 40%);
   --blue-color: hsl(204, 90%, 50%);
   --white-color: hsl(0, 0%, 100%);
@@ -131,7 +131,7 @@ img {
 .nav__menu {
   position: fixed;
   top: 0;
-  right: -100%;
+  right: 0;
   background-color: hsla(210, 8%, 8%, 0.7);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -147,7 +147,16 @@ img {
   row-gap: 3rem;
 }
 
+/* .nav__close {
+  position: absolute;
+  top: 0.8rem;
+  right: 1.5rem;
+} */
+
 /* Show menu */
+/* .show-menu {
+  right: 0;
+} */
 
 /* Add blur header */
 
