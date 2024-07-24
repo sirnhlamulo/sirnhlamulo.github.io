@@ -3,10 +3,10 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3.5rem;
+  --header-height: 4.5rem;
 
   /*========== Colors ==========*/
-  --red-color: hsl(0, 56%, 46%);
+  --red-color: hsl(0, 100%, 75%);
   --green-color: hsl(166, 90%, 40%);
   --blue-color: hsl(204, 90%, 50%);
   --white-color: hsl(0, 0%, 100%);
@@ -51,9 +51,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--white-color);
-  background-color: var(
-    --black-color
-  ); /* Set a background color for contrast */
+  background-color: var(--red-color); /* Set a background color for contrast */
 }
 
 ul {
@@ -72,7 +70,7 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1120px;
+  max-width: 100%;
   margin-inline: 1.5rem;
 }
 
@@ -94,6 +92,7 @@ img {
 }
 
 /*=============== HEADER & NAV ===============*/
+
 .header {
   position: fixed;
   width: 100%;
@@ -110,13 +109,16 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.nav__logo-img{
-  top: 0;
-  left: 0;
-  width: 30px;
-  height: 30px;
-  display: inline;
+
+.nav__logo {
+  display: flex;
   align-items: center;
+  gap: 0.5rem; /* Space between logo image and text */
+}
+
+.nav__logo-img {
+  height: 60px; /* Adjust the height of the logo image */
+  width: auto;
 }
 
 .nav__logo,
@@ -168,18 +170,15 @@ img {
 }
 
 /*=============== ADD BLUR HEADER ===============*/
-/* Add your blur header styles here */
 
 /*=============== HOME ===============*/
-/* Add your home section styles here */
 
 /*=============== SWIPER NETWORK ===============*/
-/* Add your Swiper styles here */
 
 /*=============== SWIPER ANIMATION ===============*/
-/* Add your Swiper animation styles here */
 
 /*=============== BREAKPOINTS ===============*/
+
 /* Small devices */
 @media screen and (max-width: 576px) {
   .nav__menu {
