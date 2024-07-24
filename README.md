@@ -20,4 +20,4 @@ Tech Stack:
 - [Swiperjs](https://swiperjs.com/get-started#use-swiper-from-cdn)
 - [GSAP](https://cdnjs.com/libraries/gsap)
 
-![preview img](/img/resource/preview.png)
+![preview img](assets/img/resource/preview.png)
