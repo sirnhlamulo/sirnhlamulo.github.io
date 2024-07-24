@@ -1,7 +1,6 @@
 # Responsive Network Website
 ## [Github Profile](https://github.com/sirnhlamulo?tab=repositories)
 ## [Linkedin Profile](https://www.linkedin.com/in/sir-nhlamulo/)
-## [Facebook Porfile](https://www.instagram.com/sir.nhlamulo/)
 
 ### Make your network your networth with this front-end template.
 
