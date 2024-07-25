@@ -6,6 +6,7 @@ av__link
 Home
 .n - Career - Consult - Commerce - Contact
 
+
 ========== BODY ==========
 .home__subtitle
 Let’s
@@ -20,6 +21,10 @@ Hub
 
 .home__button span
 Explore
+
+https://sirnhlamulo.github.io/resume/ -> download cv
+https://sirnhlamulo.github.io/consultation/ -> https://sirnhlamuo.wordpress.com -> https://sirnhlamulo.com
+https://sirnhlamulo.github.io/commerce/ -> https://sirptyltd.com
 
 .home__social-link
 https://www.linkedin.com/in/sir-nhlamulo/

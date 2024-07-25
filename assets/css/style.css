@@ -51,7 +51,9 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--white-color);
-  background-color: var(--red-color); /* Set a background color for contrast */
+  background-color: var(
+    --black-color
+  ); /* Set a background color for contrast */
 }
 
 ul {
@@ -78,17 +80,17 @@ img {
   overflow: hidden;
 }
 
-/* Car color classes */
-.car__orange {
-  --color-car: var(--red-color);
+/* network color classes */
+.network__red {
+  --color-network: var(--red-color);
 }
 
-.car__green {
-  --color-car: var(--green-color);
+.network__green {
+  --color-network: var(--green-color);
 }
 
-.car__blue {
-  --color-car: var(--blue-color);
+.network__blue {
+  --color-network: var(--blue-color);
 }
 
 /*=============== HEADER & NAV ===============*/
@@ -169,20 +171,145 @@ img {
   right: 0;
 }
 
-/*=============== ADD BLUR HEADER ===============*/
-
 /*=============== HOME ===============*/
+.home__article {
+  position: relative;
+  padding-top: 12rem;
+  width: 100%;
+  height: 100vh;
+}
 
-/*=============== SWIPER NETWORK ===============*/
+.home__panel-1 {
+  width: 100%;
+  height: 40%;
+  background-color: var(--color-network);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 
-/*=============== SWIPER ANIMATION ===============*/
+.home__panel-2 {
+  width: 100%;
+  height: 40%;
+  background-color: var(--black-color);
+  position: absolute;
+  left: 0;
+  top: 40%;
+}
 
-/*=============== BREAKPOINTS ===============*/
+.home__content {
+  position: relative;
+  height: 100%;
+  display: grid;
+  align-content: space-between;
+  z-index: 1;
+}
+
+.home__data {
+  position: relative;
+}
+
+.home__titles {
+  width: max-content;
+  margin-inline: auto;
+}
+
+.home__subtitle {
+  font-size: var(--big-font-size);
+  font-family: var(--second-font);
+}
+
+.home__title {
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-bold);
+}
+
+.home__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__img {
+  max-width: 300px;
+  height: auto;
+}
+
+.home__info {
+  text-align: center;
+}
+
+.home__specs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: var(--font-semi-bold);
+}
+
+.home__button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-network);
+  color: var(--white-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.home__button:hover {
+  background-color: var(--black-color);
+}
+
+/*=============== SOCIAL ICONS ===============*/
+.home__social {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.home__social-border {
+  width: 2px;
+  height: 60px;
+  background-color: var(--white-color);
+}
+
+.home__social-link {
+  color: var(--white-color);
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.home__social-link:hover {
+  color: var(--color-network);
+}
+
+/*=============== RESPONSIVE BREAKPOINTS ===============*/
 
 /* Small devices */
 @media screen and (max-width: 576px) {
   .nav__menu {
     width: 100%;
+  }
+
+  .home__titles {
+    text-align: center;
+  }
+
+  .home__subtitle {
+    font-size: 1.5rem;
+  }
+
+  .home__title {
+    font-size: 3rem;
+  }
+
+  .home__button {
+    width: 100%;
+    justify-content: center;
   }
 }
 
