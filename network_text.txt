@@ -32,5 +32,9 @@ https://www.facebook.com/sir.nhlamulo/
 https://www.instagram.com/sir.nhlamulo/
 https://github.com/sirnhlamulo?tab=repositories
 
+swiper.js files 
+https://cdn.jsdelivr.net/npm/swiper@11.1.8/swiper-bundle.css
+https://cdn.jsdelivr.net/npm/swiper@11.1.8/swiper-bundle.js
 
+cp. to swiper.css & *.js in dir
 
