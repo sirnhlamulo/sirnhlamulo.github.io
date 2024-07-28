@@ -26,9 +26,8 @@ function linkAction() {
 }
 
 navLinks.forEach((link) => link.addEventListener("click", linkAction));
+/*=============== SWIPER JS ==========*/
 
-/*=============== SWIPER NETWORK ==========*/
-
-/*=============== GSAP ANIMATION ==========*/
+/*=============== GSAP ==========*/
 
 /*=============== ADD BLUR HEADER =========*/
