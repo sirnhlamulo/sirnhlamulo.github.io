@@ -320,8 +320,8 @@ img {
 }
 
 .swiper-pagination-bullet {
-  width: 4rem;
-  height: 4rem;
+  width: 2.5rem;
+  height: 2.5rem;
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--white-color);
@@ -330,11 +330,10 @@ img {
   background: none;
 }
 
-/* Swiper Animation */
 .swiper-pagination-bullet-active {
-border: 2px solid var(--white-color);
+  border: 2px solid var(--white-color);
 }
-
+/* Swiper Animation */
 
 /*=============== RESPONSIVE BREAKPOINTS ===============*/
 
