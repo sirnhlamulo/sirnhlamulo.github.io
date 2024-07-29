@@ -27,7 +27,19 @@ function linkAction() {
 
 navLinks.forEach((link) => link.addEventListener("click", linkAction));
 /*=============== SWIPER JS ==========*/
-
+const swiperHome = new Swiper(".home__swiper", {
+  //theme
+  speed: 1200,
+  effect: "fade",
+  //pagination
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    renderBullet: (index, className) => {
+      return '<span class="' + className + '">' + String(index + 1).padStart(2,'0') + "</span>";
+    },
+  },
+});
 /*=============== GSAP ==========*/
 
 /*=============== ADD BLUR HEADER =========*/

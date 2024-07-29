@@ -225,7 +225,7 @@ img {
 
 .home__img {
   min-width: initial;
-  width: 100%;
+  width: 400px;
   position: absolute;
   left: 0;
   bottom: -7.5rem;

@@ -18,10 +18,7 @@
     />
 
     <!--=============== SWIPER CSS ===============-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="assets/css/swiper.css" />
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -72,10 +69,10 @@
     <main class="main">
       <!--==================== HOME ====================-->
       <section class="home">
-        <div class="home__swiper">
-          <div>
+        <div class="home__swiper swiper">
+          <div class="swiper-wrapper">
             <!-- Article 1 : Network to responsive github-pages-resume project  -->
-            <article class="home__article network__red">
+            <article class="home__article network__red swiper-slide">
               <div class="home__panel-1"></div>
               <div class="home__panel-2"></div>
 
@@ -113,7 +110,7 @@
             </article>
 
             <!-- Article 2 : Network to responsive wp-consultation project ive created -->
-            <article class="home__article network__green">
+            <article class="home__article network__green swiper-slide">
               <div class="home__panel-1"></div>
               <div class="home__panel-2"></div>
 
@@ -152,7 +149,7 @@
             </article>
 
             <!-- Article 3 : Network to responsive php-commerce project ive created -->
-            <article class="home__article network__blue">
+            <article class="home__article network__blue swiper-slide">
               <div class="home__panel-1"></div>
               <div class="home__panel-2"></div>
 
@@ -213,6 +210,9 @@
               <i class="ri-instagram-fill"></i>
             </a>
           </div>
+
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
         </div>
       </section>
     </main>
@@ -221,7 +221,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/assets/js/swiper.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
