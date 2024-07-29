@@ -211,12 +211,14 @@ img {
 
 .home__data {
   position: relative;
+  margin-inline: 1.5rem;
+
 }
 
 /* Titles  */
 .home__titles {
   width: max-content;
-  margin-inline: auto;
+  margin-inline: 3.5rem;
 }
 
 .home__subtitle {
@@ -235,7 +237,7 @@ img {
   width: 400px;
   position: absolute;
   left: 0;
-  bottom: -7.5rem;
+  bottom: -8.5rem;
 }
 
 /* Info */
@@ -298,6 +300,7 @@ img {
   justify-items: center;
   row-gap: 0.75rem;
   z-index: 10;
+  margin-inline: 1.75rem;
 }
 
 /* design */
@@ -307,6 +310,7 @@ img {
 }
 
 .home__social-border {
+  
   width: 2px;
   height: 88px;
   background-color: var(--white-color);
@@ -345,12 +349,14 @@ img {
 .swiper-pagination-bullet-active {
   border: 2px solid var(--white-color);
 }
+
+
 /* Swiper Animation */
 
 /*=============== RESPONSIVE BREAKPOINTS ===============*/
 
 /* Small devices */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 366px) {
   .nav__menu {
     width: 100%;
   }
