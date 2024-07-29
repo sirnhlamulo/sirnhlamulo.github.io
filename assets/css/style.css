@@ -299,12 +299,42 @@ img {
   width: 2px;
   height: 88px;
   background-color: var(--white-color);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .home__social-link:hover {
   color: var(--color-network);
 }
+
+/* Swiper Classes    */
+.swiper {
+  height: 100vh;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  top: 65%;
+  bottom: initial;
+  display: flex;
+  justify-content: center;
+  column-gap: 0.5rem;
+}
+
+.swiper-pagination-bullet {
+  width: 4rem;
+  height: 4rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--white-color);
+  opacity: 1;
+  align-content: center;
+  background: none;
+}
+
+/* Swiper Animation */
+.swiper-pagination-bullet-active {
+border: 2px solid var(--white-color);
+}
+
 
 /*=============== RESPONSIVE BREAKPOINTS ===============*/
 

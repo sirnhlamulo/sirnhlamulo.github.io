@@ -36,8 +36,8 @@ const swiperHome = new Swiper(".home__swiper", {
     clickable: true,
     renderBullet: (index, className) => {
       const icons = [
-        '<i class="ri-money-dollar-circle-line"></i>',
         '<i class="ri-briefcase-line"></i>',
+        '<i class="ri-money-dollar-circle-line"></i>',
         '<i class="ri-shopping-bag-line"></i>'
       ];
       return `<span class="${className}">${icons[index]}</span>`;
