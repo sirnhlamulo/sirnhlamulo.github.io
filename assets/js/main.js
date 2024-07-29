@@ -17,7 +17,7 @@ if (navClose) {
   });
 }
 
-/*=============== REMOVE MENU MOBILE ======*/
+/*=============== REMOVE MENU MOBILE ===============*/
 const navLinks = document.querySelectorAll(".nav__link");
 
 /* Close menu when any nav link is clicked */
@@ -26,26 +26,23 @@ function linkAction() {
 }
 
 navLinks.forEach((link) => link.addEventListener("click", linkAction));
-/*=============== SWIPER JS ==========*/
+
+/*=============== SWIPER JS ===============*/
 const swiperHome = new Swiper(".home__swiper", {
-  //theme
   speed: 1200,
   effect: "fade",
-  //pagination
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
     renderBullet: (index, className) => {
-      return (
-        '<span class="' +
-        className +
-        '">' +
-        String(index + 1).padStart(2, "0") +
-        "</span>"
-      );
+      const icons = [
+        '<i class="ri-money-dollar-circle-line"></i>',
+        '<i class="ri-briefcase-line"></i>',
+        '<i class="ri-shopping-bag-line"></i>'
+      ];
+      return `<span class="${className}">${icons[index]}</span>`;
     },
   },
 });
-/*=============== GSAP ==========*/
 
-/*=============== ADD BLUR HEADER =========*/
+/*=============== GSAP ===============*/
