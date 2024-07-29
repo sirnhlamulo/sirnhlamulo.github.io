@@ -172,6 +172,8 @@ img {
 }
 
 /*=============== HOME ===============*/
+
+/* Base */
 .home__article {
   position: relative;
   padding-top: 12rem;
@@ -179,6 +181,7 @@ img {
   height: 100vh;
 }
 
+/* Panels */
 .home__panel-1 {
   width: 100%;
   height: 40%;
@@ -197,6 +200,7 @@ img {
   bottom: 0;
 }
 
+/* Content */
 .home__content {
   position: relative;
   height: 100%;
@@ -209,6 +213,7 @@ img {
   position: relative;
 }
 
+/* Titles  */
 .home__titles {
   width: max-content;
   margin-inline: auto;
@@ -223,6 +228,8 @@ img {
   font-size: var(--biggest-font-size);
 }
 
+/* Img */
+
 .home__img {
   min-width: initial;
   width: 400px;
@@ -230,6 +237,8 @@ img {
   left: 0;
   bottom: -7.5rem;
 }
+
+/* Info */
 
 .home__info {
   padding-bottom: 3rem;
@@ -245,6 +254,8 @@ img {
   font-weight: var(--font-semi-bold);
   color: var(--color-network);
 }
+
+/* Buttonn */
 
 .home__button {
   display: inline-flex;
@@ -279,7 +290,6 @@ img {
 }
 
 /*=============== SOCIAL ICONS ===============*/
-
 .home__social {
   position: absolute;
   top: 4rem;
@@ -290,6 +300,7 @@ img {
   z-index: 10;
 }
 
+/* design */
 .home__social-link {
   font-size: 1.25rem;
   color: var(--black-color);
@@ -311,6 +322,7 @@ img {
   height: 100vh;
 }
 
+/* redesign */
 .swiper-pagination-bullets.swiper-pagination-horizontal {
   top: 65%;
   bottom: initial;
