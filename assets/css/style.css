@@ -3,7 +3,7 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3.5rem;
+  --header-height: 4.5rem;
 
   /*========== Colors ==========*/
   --red-color: hsl(0, 100%, 75%);
@@ -119,7 +119,7 @@ img {
 }
 
 .nav__logo-img {
-  height: 60px; /* Adjust the height of the logo image */
+  height: 63.5px;
   width: auto;
 }
 
@@ -212,7 +212,6 @@ img {
 .home__data {
   position: relative;
   margin-inline: 1.5rem;
-
 }
 
 /* Titles  */
@@ -310,7 +309,6 @@ img {
 }
 
 .home__social-border {
-  
   width: 2px;
   height: 88px;
   background-color: var(--white-color);
@@ -350,59 +348,20 @@ img {
   border: 2px solid var(--white-color);
 }
 
-
 /* Swiper Animation */
 
 /*=============== RESPONSIVE BREAKPOINTS ===============*/
 
-/* Small devices */
-@media screen and (max-width: 366px) {
-  .nav__menu {
-    width: 100%;
+/* all devices */
+@media screen and (max-width: 330px) {
+  .container {
+    margin-inline: 1rem;
   }
-
-  .home__titles {
-    text-align: center;
+  .home__social {
+    left: 0.5em;
   }
-
-  .home__subtitle {
-    font-size: 1.5rem;
-  }
-
-  .home__title {
-    font-size: 3rem;
-  }
-
-  .home__button {
-    width: 100%;
-    justify-content: center;
-  }
-}
-
-/* Medium devices */
-@media screen and (min-width: 576px) and (max-width: 768px) {
-  .nav__menu {
-    width: 80%;
-  }
-}
-
-/* Large devices */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-  .nav__menu {
-    width: 60%;
-  }
-}
-
-/* Extra large devices */
-@media screen and (min-width: 992px) {
-  .nav__menu {
-    width: 40%;
-  }
-}
-
-/* Taller devices */
-@media screen and (min-height: 700px) {
-  .nav__menu {
-    padding: 7rem 3.5rem 3.5rem;
-  }
+  .home__title{
+    font-size: 4rem;
+  }  
+  
 }
