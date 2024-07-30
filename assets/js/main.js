@@ -55,6 +55,6 @@ const blurHeader = () => {
     : header.classList.remove("blur-header");
 };
 
-window.addEventListener("blurr", blurHeader);
+window.addEventListener("scroll", blurHeader);
 
 /*=============== GSAP ===============*/
