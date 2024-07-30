@@ -182,7 +182,6 @@ img {
   -webkit-backdrop-filter: blur(16px);
   top: 0;
   left: 0;
-  z-index: -1;
 }
 /*=============== HOME ===============*/
 
@@ -224,13 +223,13 @@ img {
 
 .home__data {
   position: relative;
-  margin-inline: 1.5rem;
+  /* margin-inline: 1.5rem; */
 }
 
 /* Titles  */
 .home__titles {
   width: max-content;
-  margin-inline: 3.5rem;
+  margin-inline: auto;
 }
 
 .home__subtitle {
@@ -258,7 +257,7 @@ img {
   padding-bottom: 3rem;
   text-align: center;
   display: grid;
-  row-gap: 2rem;
+  row-gap: 1rem;
 }
 
 .home__specs {
@@ -312,7 +311,7 @@ img {
   justify-items: center;
   row-gap: 0.75rem;
   z-index: 10;
-  margin-inline: 1.75rem;
+  margin-inline: 2rem;
 }
 
 /* design */
@@ -388,10 +387,18 @@ img {
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 330px) {
+@media screen and (min-width: 350px) and (max-width: 680px) {
   .swiper,
   .home__article,
   .home__interaction {
     height: 700px;
+  }
+}
+
+@media screen and (min-width:450px) {
+  .home__img{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
 }
