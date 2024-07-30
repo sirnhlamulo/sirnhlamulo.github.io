@@ -460,10 +460,41 @@ img {
     padding-bottom: 1.5rem;
   }
 
-  .home__specs{
+  .home__specs {
     column-gap: 1.5rem;
     padding: 2rem;
   }
 
-  
+  .home__interaction {
+    max-width: 1120px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+  }
+
+  .home__social {
+    top: initial;
+    bottom: 3rem;
+    left: 0;
+    row-gap: 1rem;
+  }
+
+  .home__social-border {
+   height: 380px;
+   margin-bottom: 3rem;
+  }
+
+
+  .swiper-pagination-bullets.swiper-pagination-horizontal{
+    width: initial;
+    height: max-content;
+    left: initial;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
 }
