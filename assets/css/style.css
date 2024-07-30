@@ -171,6 +171,19 @@ img {
   right: 0;
 }
 
+/* blurr header */
+.blur-header::after {
+  content: '';
+  position: absolute;
+  width: 1000%;
+  height: 100%;
+  background-color: hsla(210, 8%, 8%, 0.2);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 /*=============== HOME ===============*/
 
 /* Base */
@@ -375,11 +388,10 @@ img {
   }
 }
 
-@media screen (min-width: 350px) and (max-width: 330px) {
+@media screen and (min-width: 350px) and (max-width: 330px) {
   .swiper,
   .home__article,
   .home__interaction {
     height: 700px;
-    
   }
 }

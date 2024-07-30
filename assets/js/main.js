@@ -38,11 +38,23 @@ const swiperHome = new Swiper(".home__swiper", {
       const icons = [
         '<i class="ri-briefcase-line"></i>',
         '<i class="ri-money-dollar-circle-line"></i>',
-        '<i class="ri-shopping-bag-line"></i>'
+        '<i class="ri-shopping-bag-line"></i>',
       ];
       return `<span class="${className}">${icons[index]}</span>`;
     },
   },
 });
+
+/*=============== BLUR HEADER ===============*/
+const blurHeader = () => {
+  const header = document.getElementById("header");
+  // Adding class if the bottome offset is greater than 50% of the view
+
+  this.scrollY >= 50
+    ? header.classList.add("blur-header")
+    : header.classList.remove("blur-header");
+};
+
+window.addEventListener("blurr", blurHeader);
 
 /*=============== GSAP ===============*/
