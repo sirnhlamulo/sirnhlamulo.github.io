@@ -18,4 +18,9 @@ Tech Stack:
 - [Swiperjs](https://swiperjs.com/get-started#use-swiper-from-cdn)
 - [GSAP](https://cdnjs.com/libraries/gsap)
 
-![preview img](assets/img/resource/preview.png)
+### Lets Connect
+![preview img](assets/img/resource/1.png)
+### Lets Create a project
+![preview img](assets/img/resource/2.png)
+### Lets Consult you as a client
+![preview img](assets/img/resource/3.png)
